@@ -7,3 +7,4 @@ serverConnection
   }
 };
 
+module.exports = withAuth;
