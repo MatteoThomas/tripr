@@ -1,14 +1,3 @@
-const router = require('express').Router();
-const userRoutes = require('./userRoutes');
-const projectRoutes = require('./projectRoutes');
-
-
-// model file folder calls
-router.use('/user', userRoutes);
-router.use('/projects', projectRoutes);
-
-module.exports = router;
-
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
@@ -25,6 +14,7 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
+      // If successful, redirect the browser to the profile page
       document.location.replace('/profile');
     } else {
       alert(response.statusText);
@@ -61,4 +51,3 @@ document
 document
   .querySelector('.signup-form')
   .addEventListener('submit', signupFormHandler);
-
