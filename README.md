@@ -15,7 +15,7 @@ https://github.com/ncclymer
 * Jonathan Davidson
 https://github.com/JDavid337
 
-* Matthew Elliot
+* Matthew Elliott
 https://github.com/MatteoThomas
 
 * Kelsea Hunt
