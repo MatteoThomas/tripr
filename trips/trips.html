@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta name="viewport" content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <div class="grid-container">
+
+        <div class="banner">
+            <br> <img id="preview" src="Error.src" onerror="this.src='assets/img/blue.png'" />
+            <input type="file" id="filetag" hidden />
+            <label for="filetag">Select a banner image</label>
+        </div>
+
+        <div class="pics">
+            <form id='post-form' class='post-form' method='post'>
+                <label for='files'>Add photos</label>
+                <input id='files' type='file' accept='image/jpeg,image/gif,image/png' multiple hidden />
+
+                <div class="photos">
+                    <output id='result' />
+                </div>
+            </form>
+        </div>
+
+        <div class="main">
+            <h3>Colorado Adventure Summer 2021</h3>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vero a nihil repudiandae odio accusamus officia ad est
+                    minima impedit quasi ullam nesciunt, sunt optio tempora
+                    minus excepturi sapiente molestiae vel.</p>
+                <p>Aenean convallis, tortor eget vehicula vestibulum, sem nibh
+                    rutrum sem, vel sodales nisl velit eu ex. Sed hendrerit
+                    efficitur sollicitudin. Maecenas tempus augue lacus.</p>
+            </div>
+            <!--
+                <h2>{{name}}</h2>
+                <p>{{description}}</p>
+                <p>Created by {{user.name}} on {{format_date date_created}}</p>
+            -->
+        </div>
+
+        <div class="map">
+            <div class="map-example">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="assets/js/script.js">
+    </script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVEwiDJcBPLis_u4b2R8QOBfVmWSYSuE4&callback=initMap&libraries=&v=weekly"
+        async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
+
+</body>
+
+</html>
