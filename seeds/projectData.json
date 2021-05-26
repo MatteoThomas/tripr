@@ -1,7 +1,14 @@
 [
     {
-      "name": "Music Near Me",
-      "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-      "needed_funding": 5000
+      "name": "Moab, Utah 2020",
+      "description": "Last year I decided to take a day trip to Moab, Utah. The landscape was absolutely stunning and looked like something from out of this world.  We visited Zion National Park as the sun was setting and gave us the most memorable sunset."
+    },
+    {
+      "name": "Garden of the Gods, Colorado 2021",
+      "description": "Down in Colorado Springs, Garden of the Gods is a phenomenal display of red mountains that emerge from the ground.  They are stunningly huge and oddly shaped making them interesting to look at."
+    },
+    {
+      "name": "Jefferson Lake, Colorado 2021",
+      "description": "This was the most beautiful place I have ever experienced.  Driving up to the top of a mountain where it is covered in snow all year round.  There is a beautiful lake in the middle of a valley surrounded by evergreens."
     }
 ]
