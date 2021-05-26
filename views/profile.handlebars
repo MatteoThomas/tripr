@@ -1,31 +1,27 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h2>welcome, {{name}}!</h2>
   </div>
 </div>
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Add your most recent trip:</h3>
 
     <form class="form new-project-form">
       <div class="form-group">
-        <label for="project-name">Trip name:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
+        <label for="project-name">location and date</label>
+        <input class="form-input" type="text" id="project-name" name="project-name" placeholder="Denver, Colorado June 2021"/>
       </div>
-      <div class="form-group">
+      {{!-- <div class="form-group">
         <label for="project-funding">Location name:</label>
         <input class="form-input" type="text" id="project-funding" name="project-funding" />
-      </div>
+      </div> --}}
       <div class="form-group">
-        <label for="project-desc">Highlights that I will remember forever!</label>
+        <label for="project-desc">memories</label>
         <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary project-list">Create</button>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Check Map</button>
+        <button type="submit" class="btn btn-primary project-list">create</button>
       </div>
     </form>
   </div>
