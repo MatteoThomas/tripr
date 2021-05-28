@@ -62,22 +62,27 @@ h1:before {
       transparent,
       transparent 1em,
       #9e2053 1em,
-      rgb(255, 207, 102) 20%
+      rgb(242, 102, 255) 20%
     ),
     repeating-linear-gradient(
       85deg,
-      #e4fc10,
-      #ffc956 1em,
+      #ffea73,
+      #91d396 1em,
       rgb(255, 79, 108) 1em,
       #3bcdf1 80%
     );
   background-size: 3em 3em, 2em 2em;
   animation-name: ani;
-  animation-duration: 28s;
+  animation-duration: 18s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   mix-blend-mode: overlay;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 0%;
 }
 
 h3 {
@@ -86,6 +91,16 @@ h3 {
 .col-md-5 {
   color: #e0e0e0;
 }
+
+.col-md-6 {
+  margin-bottom: 2rem;
+}
+
+.formBtn {
+  display: flex;
+  padding-left: 15rem;
+}
+
 body {
   background-color: var(--background);
   font-family: "Raleway", sans-serif;
@@ -94,7 +109,13 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.fit {
+  width: 90vw;
+}
 
+#homepage {
+  width: 90vw;
+}
 form .form-input {
   width: 100%;
   padding: 0.75rem;
@@ -324,9 +345,10 @@ label {
 }
 
 .map-example #map {
-  width: 300px;
+  width: 320px;
   height: 300px;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 /* end google map */
@@ -347,8 +369,9 @@ label {
   body {
     display: flex;
     justify-content: center;
-    min-width: 100vw;
-    max-width: 100vw;
+    min-width: 90vw;
+    max-width: 90vw;
+    padding-left: 0.5rem;
   }
 
   .grid-container {
@@ -387,6 +410,20 @@ label {
     justify-content: center;
   }
 
+  .banner {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 1rem;
+  }
+
   #preview {
     height: 150px;
   }
@@ -396,6 +433,8 @@ label {
   padding: 0%;
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 0;
 }
 
 @media only screen and (max-device-width: 1200px) {

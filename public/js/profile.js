@@ -10,7 +10,7 @@ const newFormHandler = async (event) => {
       method: 'POST',
       body: JSON.stringify({
         name,
-        
+
         description
       }),
       headers: {
@@ -47,7 +47,7 @@ document
   .querySelector('.new-project-form')
   .addEventListener('submit', newFormHandler);
 
-// create btn
+// delete button
 document
   .querySelector('.project-list')
   .addEventListener('click', delButtonHandler);
