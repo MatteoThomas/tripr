@@ -32,6 +32,7 @@
     "node": "^15.13.0",
     "nodemon": "^2.0.7",
     "normalize.css": "^8.0.1",
+    "phoenix": "^1.5.9",
     "require": "^2.4.20",
     "seeds": "^2.3.1",
     "sequelize": "^6.6.2"
