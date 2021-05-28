@@ -32,10 +32,6 @@ main {
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
      ========================================================================== */
@@ -361,7 +357,6 @@ h4,
 h5,
 h6 {
   margin: 0 0 0.5rem;
-  line-height: 1.25;
 }
 
 h1 {
@@ -387,12 +382,7 @@ h5 {
 h6 {
   font-size: 1rem;
 }
-
-p {
-  font-size: 1.1rem;
-  margin: 0 0 1rem;
-  line-height: 1.5;
-}
+/* changed */
 
 ul,
 ol,
@@ -410,16 +400,6 @@ select,
 textarea,
 button {
   margin: 0;
-}
-
-a {
-  color: rgb(64, 80, 66);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  color: #fcd979;
 }
 
 /* HEIGHT / WIDTH UTILS */
@@ -1002,15 +982,6 @@ a:hover {
 }
 
 /* changed */
-.btn.btn-primary {
-  background-color: rgb(190, 189, 114);
-  color: rgb(64, 80, 66);
-  padding: 0.5rem;
-  font-family: sans-serif;
-  border-radius: 0.3rem;
-  cursor: pointer;
-  margin-top: 0.3rem;
-}
 
 .btn.btn-primary:hover {
   background-color: rgb(64, 80, 66);
@@ -1023,10 +994,6 @@ a:hover {
 }
 
 /* changed */
-.btn.btn-danger:hover {
-  background-color: #1a1419;
-  color: #84b8b4;
-}
 
 .btn.btn-info {
   background-color: #1bbc9b;
@@ -1141,16 +1108,7 @@ form .form-label {
   margin: 0.625rem 0 0.25rem 0.3rem;
 }
 
-form .form-input {
-  width: 100%;
-  padding: 0.75rem;
-  color: #1a1a1a;
-  background-color: #e7e7e79a;
-  margin: 0.625rem 0;
-  font-size: 1.2rem;
-  border: 1px solid #484848;
-  border-radius: 0.3rem;
-}
+
 
 form .form-input.form-input-squared {
   border-radius: 0;
@@ -1164,17 +1122,6 @@ form [type="radio"] {
 label form [type="checkbox"],
 label form [type="radio"] {
   display: inline-block;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container.container-fluid {
-  width: 92%;
 }
 
 /* FLEX CONTENT */
