@@ -13,17 +13,22 @@ header,
 
 nav {
   padding-bottom: 1rem;
+  font-family: "Cinzel";
+  color: #ffb8d1;
+  font-weight: bold;
 }
 p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0 0 2rem;
   line-height: 1.5;
   font-weight: 400;
+  font-family: "Oswald";
 }
 
 a {
   color: #ebebeb;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 a:hover {
@@ -33,13 +38,14 @@ a:hover {
 
 h1 {
   font-size: 18rem;
-  font-family: "Raleway", sans-serif;
+  font-family: ""Raleway", sans-serif";
   letter-spacing: -0.8rem;
   position: relative;
   background: var(--background);
   color: #ffffff;
   margin: 0rem 0rem 0rem 1rem;
   border-radius: 4px;
+  text-transform: none;
 }
 
 h1:before {
@@ -48,7 +54,6 @@ h1:before {
   padding-left: 10rem;
   content: "";
   letter-spacing: -2rem;
-
   position: absolute;
   -webkit-filter: blur(60px);
   filter: blur(60px);
@@ -83,6 +88,7 @@ h1:before {
 h2 {
   color: #ffffff;
   margin-bottom: 0%;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -126,6 +132,10 @@ form .form-input {
   border: 1px solid #484848;
   border-radius: 0.3rem;
 }
+
+#project-name {
+  text-transform: capitalize;
+  }
 
 .no-button {
   background: none;
@@ -241,6 +251,7 @@ label {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
+  text-transform: capitalize;
 }
 
 #infowindow-content .title {
