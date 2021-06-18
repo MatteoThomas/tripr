@@ -16,6 +16,9 @@ Once a profile has been created or the exisint user has logged in, then you will
 
 Once you have created the trip and pressed the 'create' button, you will be directed to a page that shows you the location of your most recent trip, along with any previously logged trips, on a map provided by Google.  You can also upload photos, make comments on your trip, view comments others have left on your trip, or view trips and photos of people within your social circle!  
 
+## App link
+https://tripr-project2.herokuapp.com/
+
 ## Installations
 
 * Node.JS
