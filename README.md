@@ -1,4 +1,4 @@
-# Project-2-Travel-Greens
+# tripr
 
 Welcome to Tripr, the environmentally friendly trip advisor!  
 
