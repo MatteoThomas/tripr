@@ -8,7 +8,7 @@
 - [Table of Contents](#table-of-contents)
 - [Description](#description)
 - [Links](#links)
-- [Technologies](#technologies)
+- [App link](#app-link)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Development](#future-development)
@@ -26,7 +26,8 @@ If you are new to tripr, you will be asked to create a user profile. Some featur
 
 [Repository Link](https://github.com/MatteoThomas/tripr)
 
-# Technologies
+# App link
+https://tripr-travel-app.herokuapp.com/
 
 - Node.JS
 - Express.JS
