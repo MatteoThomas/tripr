@@ -1,33 +1,27 @@
-# tripr
 
 ![Homepage screenshot](/triprRepo.png)
 
-# Table of Contents
+# tripr.
 
-- [tripr](#tripr)
-- [Table of Contents](#table-of-contents)
+- [tripr.](#tripr)
 - [Description](#description)
 - [Links](#links)
-- [App link](#app-link)
-- [Installation](#installation)
+- [Technologies](#technologies)
 - [Usage](#usage)
 - [Future Development](#future-development)
-- [Status & Updates](#status--updates)
 - [Contributors](#contributors)
 - [License](#license)
 
 # Description
-
-If you are new to tripr, you will be asked to create a user profile. Some features are available to sample without a user profile, but it only takes a few moments to create a profile and get the full experience of the app. With tripr, you can view travel destinations on a map, log trips that you've taken that include blogs and pictures, and you can invite your friends to join so that they can see all the beautiful places you've been to!
+tripr. simplifies travel blogging. Upload pictures, place map markers on a google map, and write about your adventures until your fingers fall off! You can invite your friends to join so that they can see all the beautiful places you've been to while sharing their own experiences.
 
 # Links
 
-[App Link](https://tripr-project2.herokuapp.com/)
+[App](https://tripr-project2.herokuapp.com/)
 
-[Repository Link](https://github.com/MatteoThomas/tripr)
+[Repository](https://github.com/MatteoThomas/tripr)
 
-# App link
-https://tripr-travel-app.herokuapp.com/
+# Technologies
 
 - Node.JS
 - Express.JS
@@ -35,9 +29,6 @@ https://tripr-travel-app.herokuapp.com/
 - MySQL
 - Google Maps API
 - Handlebars
-
-# Installation
-
 # Usage
 
 When you open the web page, you will be prompted to log in. You will click on the 'login' icon, even if you have not yet created a user profile. Once the 'login' icon is clicked, you will be prompted to either login with your current username and password, or, if you do not have one yet, you may use the opportunity to create a user profile. To create a profile, enter your first and last name, your e-mail address, and a unique password. The password must be at least 8 characters in length.
@@ -48,7 +39,13 @@ Once you have created the trip and pressed the 'create' button, you will be dire
 
 # Future Development
 
-# Status & Updates
+- Allow for linking map markers to trips
+  
+- Uploaded images save to database
+
+- light / dark mode
+
+- implement tags that are searchable and sortable
 
 # Contributors
 
